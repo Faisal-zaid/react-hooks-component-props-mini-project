@@ -17,5 +17,5 @@ export default function Article({title, date="January 1, 1970", preview, minutes
         <p>{matime(minutes)} {minutes} min read</p>
         <p>{preview}</p>
     </article>
-  )
+  );
 }
